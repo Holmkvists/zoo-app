@@ -1,0 +1,13 @@
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  margin: 20px 5px;
+  padding: 1em;
+  background-color: rgb(231, 231, 69);
+}
+
+img {
+  width: 100%;
+}

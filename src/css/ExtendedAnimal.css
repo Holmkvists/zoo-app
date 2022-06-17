@@ -1,0 +1,42 @@
+.extended-animal-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(105, 176, 57);
+}
+
+.animal-info,
+.animal-facts {
+  margin: 50px 0;
+  border: 5px solid rgb(208, 208, 34);
+  background-color: rgb(130, 190, 91);
+  padding: 1em;
+}
+
+.animal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.animal-info img {
+  width: 60%;
+  border: 5px solid rgb(208, 208, 34);
+}
+
+.animal-info p,
+.animal-facts p {
+  width: 60%;
+}
+
+.feed-container {
+  display: flex;
+  width: 60%;
+}
+
+.animal-facts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
